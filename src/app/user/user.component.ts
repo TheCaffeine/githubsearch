@@ -10,7 +10,7 @@ import { Repository } from '../models/repository';
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-  userName: string ='FredrickWambua';
+  userName: string ='Fred';
   user: any=[]
   repos: any=[];
   errorMsg: string;
